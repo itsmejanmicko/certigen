@@ -13,7 +13,7 @@ export default function App() {
       <div className="flex-grow pt-16 p-3">
         <Routes>
           <Route path="/" element={<LandingPage />} />
-          <Route path="fill" element={<FillupPage />} />
+          <Route path="filluppage" element={<FillupPage />} />
         </Routes>
       </div>
       <Footer />
