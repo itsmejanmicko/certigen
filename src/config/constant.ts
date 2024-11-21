@@ -31,7 +31,7 @@ export const constant = {
      PRICING:{
         SIMPLEPRICING:'Simple Pricing',
         PROPLAN:'Pro Plan',
-        PRICE:'$19',
+        PRICE:'₱10',
         MONTH:'/Month',
         STARTED:'Get Started'
      },
@@ -57,5 +57,4 @@ export const constant = {
         ALLRIGHTSERVER:' CertiGen. All rights reserved.'
 
     }
-
 }

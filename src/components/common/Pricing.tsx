@@ -1,8 +1,10 @@
 import { CheckCircle } from "lucide-react";
-import { PRICING_TEXT } from "../helper/Pricing";
+import { getStarted, PRICING_TEXT } from "../helper/Pricing";
 import { constant } from "../../config/constant";
 
 export default function Pricing() {
+  const handleStart = getStarted();
+
     return (
       <section id="pricing" className="py-20">
         <div className="container mx-auto px-4">
@@ -24,7 +26,9 @@ export default function Pricing() {
                </ul>
               ))}
              
-              <button className="w-full bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition-colors">
+              <button 
+              onClick={handleStart}
+              className="w-full bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition-colors">
               {constant.PRICING.STARTED}
               </button>
             </div>
